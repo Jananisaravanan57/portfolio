@@ -1,8 +1,8 @@
 import React from "react";
 import "./ProjectsSection.css";
-import qrcode from "../assets/qrcode.png";
-import lifeboard from "../assets/lifeboard.png";
-import planpal from "../assets/planpal.png";
+import qrcode from "../assets/qrcode.webp";
+import lifeboard from "../assets/lifeboard.webp";
+import planpal from "../assets/planpal.webp";
 
 const projects = [
   {
@@ -42,50 +42,28 @@ function ProjectsSection() {
         {projects.map((proj, index) => (
           <div
             key={index}
-            className={`project-showcase-row ${index % 2 === 0 ? "left" : "right"}`}
+            className="project-showcase-row"
           >
-            {index % 2 === 0 ? (
-              <>
-                <div className="project-showcase-img">
-                  <img src={proj.img} alt={proj.name} />
-                </div>
-                <div className="project-showcase-content">
-                  <h3>{proj.name}</h3>
-                  <p>{proj.description}</p>
-                  <div className="project-showcase-tags">
-                    {proj.tech.map((tag, i) => (
-                      <span key={i}>{tag}</span>
-                    ))}
-                  </div>
-                  <div className="project-showcase-links">
-                    <a href={proj.live} target="_blank" rel="noreferrer">🔗 Live</a>
-                    <a href={proj.code} target="_blank" rel="noreferrer">💻 Code</a>
-                  </div>
-                </div>
-              </>
-            ) : (
-              <>
-                <div className="project-showcase-content">
-                  <h3>{proj.name}</h3>
-                  <p>{proj.description}</p>
-                  <div className="project-showcase-tags">
-                    {proj.tech.map((tag, i) => (
-                      <span key={i}>{tag}</span>
-                    ))}
-                  </div>
-                  <div className="project-showcase-links">
-                    <a href={proj.live} target="_blank" rel="noreferrer">🔗 Live</a>
-                    <a href={proj.code} target="_blank" rel="noreferrer">💻 Code</a>
-                  </div>
-                </div>
-                <div className="project-showcase-img">
-                  <img src={proj.img} alt={proj.name} />
-                </div>
-              </>
-            )}
+            <div className="project-showcase-img">
+              <img src={proj.img} alt={proj.name} />
+            </div>
+            <div className="project-showcase-content">
+              <h3>{proj.name}</h3>
+              <p>{proj.description}</p>
+              <div className="project-showcase-tags">
+                {proj.tech.map((tag, i) => (
+                  <span key={i}>{tag}</span>
+                ))}
+              </div>
+              <div className="project-showcase-links">
+                <a href={proj.live} target="_blank" rel="noreferrer">🔗 Live</a>
+                <a href={proj.code} target="_blank" rel="noreferrer">💻 Code</a>
+              </div>
+            </div>
           </div>
         ))}
       </div>
+
     </section>
   );
 }
