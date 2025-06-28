@@ -1,13 +1,15 @@
 import React from "react";
 import "./ProjectsSection.css";
 import qrcode from "../assets/qrcode.png";
+import lifeboard from "../assets/lifeboard.png";
+import planpal from "../assets/planpal.png";
 
 const projects = [
   {
     name: "LifeBoard",
     description: "A visual board for tracking daily mood and goals with a minimalist UI.",
     tech: ["React", "Tailwind CSS", "LocalStorage"],
-    img: "/images/lifeboard.png",
+    img: lifeboard,
     live: "#",
     code: "#"
   },
@@ -15,7 +17,7 @@ const projects = [
     name: "PlanPal",
     description: "AI-powered travel planner that creates full itineraries with animation.",
     tech: ["React", "Framer Motion", "OpenAI API"],
-    img: "/images/planpal.png",
+    img: planpal,
     live: "#",
     code: "#"
   },
