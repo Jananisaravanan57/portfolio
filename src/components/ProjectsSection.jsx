@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectsSection.css";
+import qrcode from "../assets/qrcode.png";
 
 const projects = [
   {
@@ -22,7 +23,7 @@ const projects = [
     name: "QR Code Generator",
     description: "Generate custom QR codes instantly from any input text or URL.",
     tech: ["React", "QR Library"],
-    img: "src/images/qrcode.png",
+    img: qrcode,
     live: "https://mood-tracker-tau-lime.vercel.app/",
     code: "https://github.com/Jananisaravanan57/qrcode-generator"
   }
