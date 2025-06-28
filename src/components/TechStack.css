@@ -1,0 +1,62 @@
+.techstack-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.techstack-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  color: #4b2db5;
+}
+
+.techstack-sub {
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.tech-category {
+  margin-bottom: 40px;
+}
+
+.tech-category h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.tech-icons div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f5f5f5;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.icon {
+  font-size: 1.4rem;
+  margin-bottom: 0px !important;
+}
+
+/* Icon Colors */
+.icon.html { color: #e44d26;}
+.icon.css { color: #264de4; }
+.icon.js { color: #f0db4f; }
+.icon.react { color: #61DBFB; }
+.icon.tailwind { color: #38bdf8; }
+.icon.bootstrap { color: #264de4; }
+.icon.vite { color: #646cff; }
+.icon.java { color: #c68f2a; }
+.icon.git { color: #f1502f; }
+.icon.vscode { color: #007acc; }

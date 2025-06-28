@@ -1,0 +1,56 @@
+.journey-section {
+  background: #f6f3ff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.journey-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: #4b2db5;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding-left: 30px;
+  border-left: 3px solid #bca5f6;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 20px 0 20px 30px;
+  text-align: left;
+}
+
+.timeline-item .icon {
+  position: absolute;
+  left: -24px;
+  top: 20px;
+  background: #7e4ae8;
+  color: white;
+  padding: 10px;
+  border-radius: 35%;
+  font-size: 16px;
+}
+
+.timeline-item .icon.pause {
+  background: #0074D9;
+}
+
+.timeline-item .icon.now {
+  background: #00b894;
+}
+
+.timeline-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #2c2c54;
+}
+
+.timeline-item p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #555;
+}
