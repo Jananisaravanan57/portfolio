@@ -2,7 +2,6 @@ import React from "react";
 import "./ProjectsSection.css";
 import qrcode from "../assets/qrcode.webp";
 import lifeboard from "../assets/lifeboard.webp";
-import planpal from "../assets/planpal.webp";
 
 const projects = [
   {
@@ -10,14 +9,6 @@ const projects = [
     description: "A visual board for tracking daily mood and goals with a minimalist UI.",
     tech: ["React", "Tailwind CSS", "LocalStorage"],
     img: lifeboard,
-    live: "#",
-    code: "#"
-  },
-  {
-    name: "PlanPal",
-    description: "AI-powered travel planner that creates full itineraries with animation.",
-    tech: ["React", "Framer Motion", "OpenAI API"],
-    img: planpal,
     live: "#",
     code: "#"
   },
